@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rule-of-three-calculator.vercel.app/sitemap.xml
