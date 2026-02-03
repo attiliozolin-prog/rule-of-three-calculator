@@ -2,10 +2,10 @@ import { Language, Translations } from './types';
 
 export const CONTENT: Record<Language, Translations> = {
   [Language.PT]: {
-    title: "Calculadora de Regra de 3",
-    subtitle: "Simples, rápida e online.",
+    title: "Calculadora de Regra de 3 Simples e Composta",
+    subtitle: "Calcule regra de 3 online de forma rápida e fácil.",
     metaDescription:
-      "A melhor calculadora de Regra de 3 Simples e Composta. Cálculo automático, design intuitivo e explicação passo a passo. Grátis e sem cadastro.",
+      "Calculadora de Regra de 3 Simples e Composta online. Faça cálculos rápidos, automáticos e gratuitos com explicação passo a passo.",
     simpleTab: "Simples",
     compoundTab: "Composta",
     labelA: "Se eu tenho (A)",
@@ -14,7 +14,7 @@ export const CONTENT: Record<Language, Translations> = {
     labelX: "eu recebo (X)",
     explanationTitle: "Entenda o cálculo",
     explanationText:
-      "Multiplicamos os valores cruzados e dividimos pelo valor restante.",
+      "Multiplicamos os valores cruzados e dividimos pelo valor restante para encontrar o resultado.",
     formula: "X = (B × C) ÷ A",
     result: "Resultado",
     faqTitle: "Perguntas Frequentes",
@@ -30,21 +30,21 @@ export const CONTENT: Record<Language, Translations> = {
       {
         question: "O que é Regra de 3?",
         answer:
-          "É um método matemático para encontrar um quarto valor desconhecido quando já conhecemos três números que são proporcionais entre si.",
+          "A Regra de 3 é um método matemático usado para descobrir um valor desconhecido a partir de três valores proporcionais conhecidos.",
       },
       {
-        question: "Quando usar?",
+        question: "Quando usar a Regra de 3?",
         answer:
-          "Use para converter moedas, ajustar receitas, calcular velocidades, distâncias ou qualquer relação proporcional direta.",
+          "Use a Regra de 3 para cálculos de proporção, como conversão de valores, ajuste de receitas, cálculos de velocidade, tempo ou distância.",
       },
     ],
   },
 
   [Language.EN]: {
-    title: "Rule of Three Calculator",
-    subtitle: "Simple, fast and online.",
+    title: "Rule of Three Calculator – Simple and Compound",
+    subtitle: "Solve rule of three calculations online in seconds.",
     metaDescription:
-      "The best Simple and Compound Rule of Three calculator. Automatic calculation, intuitive design, and step-by-step explanation. Free and instant.",
+      "Online Rule of Three calculator for simple and compound problems. Fast, automatic and free with clear step-by-step explanation.",
     simpleTab: "Simple",
     compoundTab: "Compound",
     labelA: "If I have (A)",
@@ -53,7 +53,7 @@ export const CONTENT: Record<Language, Translations> = {
     labelX: "I will get (X)",
     explanationTitle: "How it works",
     explanationText:
-      "Multiply the cross values and divide by the remaining value.",
+      "We multiply the cross values and divide by the remaining value to get the result.",
     formula: "X = (B × C) ÷ A",
     result: "Result",
     faqTitle: "Frequently Asked Questions",
@@ -69,21 +69,21 @@ export const CONTENT: Record<Language, Translations> = {
       {
         question: "What is the Rule of Three?",
         answer:
-          "It is a mathematical method to solve for a fourth missing value based on three known numbers that are proportional to each other.",
+          "The Rule of Three is a mathematical method used to calculate an unknown value based on three known proportional values.",
       },
       {
-        question: "When to use it?",
+        question: "When should I use it?",
         answer:
-          "Use it for currency conversion, recipe adjustments, speed/distance calculations, or any direct proportional relationship.",
+          "Use it for proportional calculations such as currency conversion, recipe scaling, speed, distance or time calculations.",
       },
     ],
   },
 
   [Language.ES]: {
-    title: "Calculadora Regla de Tres",
-    subtitle: "Simple, rápida y en línea.",
+    title: "Calculadora de Regla de Tres Simple y Compuesta",
+    subtitle: "Calcula la regla de tres en línea de forma rápida.",
     metaDescription:
-      "La mejor calculadora de Regla de Tres Simple y Compuesta. Cálculo automático, diseño intuitivo y explicación paso a paso. Gratis.",
+      "Calculadora de Regla de Tres Simple y Compuesta en línea. Cálculos automáticos, rápidos y gratuitos con explicación clara.",
     simpleTab: "Simple",
     compoundTab: "Compuesta",
     labelA: "Si tengo (A)",
@@ -92,7 +92,7 @@ export const CONTENT: Record<Language, Translations> = {
     labelX: "obtengo (X)",
     explanationTitle: "Entiende el cálculo",
     explanationText:
-      "Multiplicamos los valores cruzados y dividimos por el valor restante.",
+      "Multiplicamos los valores cruzados y dividimos por el valor restante para obtener el resultado.",
     formula: "X = (B × C) ÷ A",
     result: "Resultado",
     faqTitle: "Preguntas Frecuentes",
@@ -108,21 +108,21 @@ export const CONTENT: Record<Language, Translations> = {
       {
         question: "¿Qué es la Regla de Tres?",
         answer:
-          "Es un método matemático para encontrar un cuarto valor desconocido cuando ya conocemos tres números que son proporcionales entre sí.",
+          "La Regla de Tres es un método matemático que permite calcular un valor desconocido a partir de tres valores proporcionales conocidos.",
       },
       {
-        question: "¿Cuándo usarla?",
+        question: "¿Cuándo utilizarla?",
         answer:
-          "Úsala para conversión de divisas, ajustar recetas, calcular velocidades, distancias o cualquier relación proporcional directa.",
+          "Se utiliza para cálculos proporcionales como conversiones, recetas, velocidades, distancias o tiempos.",
       },
     ],
   },
 
   [Language.FR]: {
-    title: "Calculateur de règle de trois",
-    subtitle: "Simple, rapide et en ligne.",
+    title: "Calculateur de règle de trois simple et composée",
+    subtitle: "Calculez la règle de trois en ligne facilement.",
     metaDescription:
-      "Le meilleur calculateur de règle de trois simple et composée. Calcul automatique, design intuitif et explication étape par étape. Gratuit.",
+      "Calculateur de règle de trois simple et composée en ligne. Rapide, gratuit et automatique avec explication claire.",
     simpleTab: "Simple",
     compoundTab: "Composée",
     labelA: "Si j’ai (A)",
@@ -131,7 +131,7 @@ export const CONTENT: Record<Language, Translations> = {
     labelX: "j’obtiens (X)",
     explanationTitle: "Comprendre le calcul",
     explanationText:
-      "Nous multiplions les valeurs croisées et divisons par la valeur restante.",
+      "Nous multiplions les valeurs croisées et divisons par la valeur restante pour obtenir le résultat.",
     formula: "X = (B × C) ÷ A",
     result: "Résultat",
     faqTitle: "Questions fréquentes",
@@ -147,12 +147,12 @@ export const CONTENT: Record<Language, Translations> = {
       {
         question: "Qu’est-ce que la règle de trois ?",
         answer:
-          "C’est une méthode mathématique qui permet de trouver une valeur inconnue à partir de trois valeurs proportionnelles connues.",
+          "La règle de trois est une méthode mathématique utilisée pour calculer une valeur inconnue à partir de trois valeurs proportionnelles connues.",
       },
       {
         question: "Quand l’utiliser ?",
         answer:
-          "Utilisez-la pour convertir des devises, ajuster des recettes, calculer des vitesses, des distances ou toute relation proportionnelle directe.",
+          "Elle est utilisée pour les calculs de proportion comme les conversions, les recettes, les vitesses, les distances ou le temps.",
       },
     ],
   },
