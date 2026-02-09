@@ -46,18 +46,10 @@ const SeoContent: React.FC<SeoContentProps> = ({ t }) => {
           Exemplos práticos de uso
         </h2>
         <ul className="list-disc list-inside space-y-2 text-gray-600">
-          <li>
-            Ajustar quantidades em receitas culinárias.
-          </li>
-          <li>
-            Converter valores proporcionais, como custo por unidade.
-          </li>
-          <li>
-            Calcular tempo, distância ou velocidade em situações do dia a dia.
-          </li>
-          <li>
-            Resolver exercícios escolares e acadêmicos.
-          </li>
+          <li>Ajustar quantidades em receitas culinárias.</li>
+          <li>Converter valores proporcionais, como custo por unidade.</li>
+          <li>Calcular tempo, distância ou velocidade.</li>
+          <li>Resolver exercícios escolares e acadêmicos.</li>
         </ul>
       </section>
 
@@ -69,11 +61,33 @@ const SeoContent: React.FC<SeoContentProps> = ({ t }) => {
         <p className="text-gray-600 leading-relaxed mb-3">
           A Regra de 3 simples envolve apenas duas grandezas proporcionais.
           Já a Regra de 3 composta é utilizada quando há três ou mais grandezas
-          relacionadas, exigindo uma análise mais detalhada antes do cálculo.
+          relacionadas, exigindo uma análise mais cuidadosa antes do cálculo.
         </p>
         <p className="text-gray-600 leading-relaxed">
           Esta calculadora permite resolver ambos os casos de forma automática,
           reduzindo erros e tornando o processo mais rápido e confiável.
+        </p>
+      </section>
+
+      {/* ===== History ===== */}
+      <section>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          Origem e história da Regra de 3
+        </h2>
+        <p className="text-gray-600 leading-relaxed mb-3">
+          A Regra de 3 não possui um autor único. Seu uso é registrado desde a
+          Antiguidade, especialmente em práticas comerciais, onde era necessário
+          calcular proporções de preços, pesos e quantidades de mercadorias.
+        </p>
+        <p className="text-gray-600 leading-relaxed mb-3">
+          Durante a Idade Média, o método foi amplamente difundido por matemáticos
+          árabes e, posteriormente, por estudiosos europeus. Antes mesmo da
+          popularização da álgebra moderna, a Regra de 3 já era considerada uma
+          ferramenta essencial para cálculos do cotidiano.
+        </p>
+        <p className="text-gray-600 leading-relaxed">
+          Até hoje, ela continua sendo ensinada como uma das bases do raciocínio
+          matemático proporcional, justamente por sua simplicidade e eficiência.
         </p>
       </section>
 
